@@ -1,0 +1,533 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Baloo 2';
+    border: 0;
+}
+
+body {
+    height: 100%;
+    line-height: 1;
+    background: rgb(255, 255, 255);
+    width: 1600px;
+    max-width: auto;
+    margin:auto;
+}
+
+
+li {
+    list-style: none;
+}
+
+.wrapper {
+    max-width: auto;
+    margin: 0 auto;
+    min-height: 100%;
+    overflow: hidden;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+}
+
+.Logotip {
+    margin-right: 150px;
+    margin-top: 25px;
+}
+
+.search-icon {
+    display: flex;
+    width: 668px;
+    height: 53px;
+    border-radius: 26.5px;
+    background: #E9F1FA;
+    margin-top: 25px;
+}
+
+.search-icon img {
+    margin-left: 15px;
+    margin-top: 15px;
+    width: 25px;
+    height: 25px;
+}
+
+.search-icon form input {
+    padding-top: 15px;
+    padding-right: 495;
+    padding-left: 55px;
+    width: 606px;
+    color: #18333E;
+    outline: none;
+    background: #E9F1FA;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.setting {
+    position: relative;
+    margin-left: 60px;
+    margin-right: 75px;
+    width: 55px;
+    height: 55px;
+    border-radius: 100%;
+    background: #18333E;
+    margin-top: 25px;
+}
+
+.setting img {
+    position: absolute;
+    cursor: pointer;
+    top: 15px;
+    left: 15px;
+}
+
+.user-information {
+    display: flex;
+    align-items: center;
+    border-left: 1px solid #B4BCC4;
+    max-height: 53px;
+    margin-top: 25px;
+}
+
+.location {
+    margin-left: 40.12px;
+    margin-right: 17.13px;
+}
+
+.notifications {
+    margin-left: 88px;
+    margin-right: 33px;
+
+}
+
+main {
+    display: flex;
+}
+
+nav {
+    margin-top: 72px;
+}
+
+nav li {
+    display: flex;
+}
+
+nav ul li {
+    margin-bottom: 64px;
+}
+
+nav ul li img {
+    padding-left: 70px;
+}
+
+.home {
+    background: #F9D44A;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 0 30px 30px 0;
+}
+
+
+.yellowbackgrounds_home {
+    margin-top: 25px;
+}
+
+nav ul li a {
+    color: #18333E;
+    margin-left: 15px;
+    text-decoration: none;
+}
+
+.sing-out {
+    margin-top: 210px;
+}
+
+.Discover-World {
+    margin-top: 60px;
+    margin-left: 80px;
+}
+
+.Discover-World h1 {
+    font-size: 30px;
+    color: #18333E;
+}
+
+.news-filters {
+    display: flex;
+    margin-top: 20px;
+}
+
+.news-filters li {
+    margin-right: 60px;
+    color: #18333E;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.news-filters li:hover {
+    color: orange;
+    transition: .5s;
+}
+
+.places-of-interest {
+    display: flex;
+}
+
+.places-of-interest li {
+    margin-right: 30px;
+    margin-top: 37px;
+}
+
+.places-of-interest p {
+    margin-top: 15px;
+    font-size: 22px;
+    color: #18333E;
+    font-weight: 600;
+}
+
+.place-and-favorite-icon {
+    position: relative;
+}
+
+.places {
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.favorite {
+    position: absolute;
+    top: 25px;
+    right: 25px;
+    width: 46px;
+    height: 46px;
+    border-radius: 100%;
+    background: rgba(255, 255, 255, 0.6);
+}
+
+.favorite img {
+    margin-top: 15px;
+    margin-left: 13px;
+}
+
+.places-of-interest #First {
+    box-shadow: 0 5px 10px 1px #063248;
+}
+
+.places-of-interest #Second {
+    box-shadow: 0 5px 10px 1px #fe7400a8;
+}
+
+.places-of-interest #Third {
+    box-shadow: 0 5px 10px 1px #5d7ecf;
+}
+
+.rating {
+    display: flex;
+    align-items: center;
+    margin-top: 11px;
+}
+
+.marker {
+    width: 14px;
+    height: 16px;
+}
+
+.rating p {
+    font-size: 16px;
+    font-weight: 300;
+    margin-left: 12px;
+    margin-bottom: 10px;
+}
+
+.stars-rating {
+    margin-top: 10px;
+}
+
+.Event-Dates {
+    margin-top: 49px;
+}
+
+.heading {
+    display: flex;
+    align-items: center;
+}
+
+.heading h1 {
+    font-size: 30px;
+}
+
+.heading span {
+    cursor: pointer;
+    margin-left: 460px;
+    padding-left: 31px;
+    padding-right: 31px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border: 1px solid #B4BCC4;
+    border-radius: 30px;
+    font-size: 16px;
+    color: #18333E;
+    font-weight: 500;
+}
+
+.date {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.current-day {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #18333E;
+    border-radius: 32px;
+    height: 111px;
+    width: 64px;
+    color: #FFFFFF;
+}
+
+.current-day img {
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
+
+.date-number {
+    font-size: 25px;
+}
+
+.date li {
+    margin-right: 75px;
+    margin-top: 64px;
+}
+
+.date li p {
+    font-size: 16px;
+}
+
+.date-number {
+    margin-top: 11px;
+    font-size: 25px;
+}
+
+.Discover-World footer ul {
+    display: flex;
+}
+
+.middle-picture {
+    margin-left: 45px;
+    margin-top: 43px;
+    margin-right: 45px;
+}
+
+.middle-picture img {
+    border-radius: 25px;
+    box-shadow: 0 3px 5px 1px #a65961;
+}
+
+.last-picture {
+    margin-top: 43px;
+}
+
+.last-picture img {
+    border-radius: 25px;
+    box-shadow: 0 3px 5px 1px #c1def9;
+}
+
+.Discover-World footer ul #selected-event {
+    display: flex;
+    margin-top: 43px;
+    max-width: 457px;
+    max-height: 119px;
+    background: #18333E;
+    border-radius: 25px;
+}
+
+.picture {
+    padding-left: 23px;
+}
+
+.names-and-rating {
+    margin-left: 12px;
+    margin-top: 36px;
+}
+
+.names-and-rating p {
+    margin-left: 10px;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+
+.rating {
+    display: flex;
+    align-items: center;
+}
+
+.rating p {
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.select-button {
+    margin-left: 89px;
+    padding-top: 34px;
+    padding-bottom: 34px;
+    padding-right: 23px;
+    cursor: pointer;
+}
+
+.big-picture-travel-and-favorite-icon {
+    position: relative;
+}
+
+.big-picture-travel {
+    margin-top: 58px;
+    border-radius: 30px;
+    box-shadow: 0 5px 10px 1px #06645970;
+}
+
+.favorite {
+    position: absolute;
+    top: 80px;
+    right: 30px;
+    width: 46px;
+    height: 46px;
+    border-radius: 100%;
+    background: rgba(255, 255, 255, 0.6);
+    cursor: pointer;
+}
+
+.favorite img {
+    margin-top: 15px;
+    margin-left: 13px;
+}
+
+.big-picture-travel-and-favorite-icon ul {
+    display: flex;
+    position: absolute;
+    background: rgba(255, 255, 255, 0.6);
+    border-radius: 30px;
+    bottom: 35px;
+    left: 34px;
+    right: 34px;
+}
+
+.big-picture-travel-and-favorite-icon ul img {
+    cursor: pointer;
+}
+
+.big-picture-travel-and-favorite-icon ul li {
+    margin-right: 5.5px;
+    margin-left: 5.5px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.first-picture {
+    margin-left: 11.5px;
+}
+
+.last-picture {
+    margin-right: 11.5px;
+}
+
+.heading-and-read-icon {
+    display: flex;
+    margin-top: 25px;
+}
+
+.heading-and-read-icon h1 {
+    font-size: 30px;
+    width: 170px;
+    color: #18333E;
+}
+
+.heading-and-read-icon img {
+    margin-left: 204px;
+    cursor: pointer;
+}
+
+.description p {
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+.price-books {
+    display: flex;
+    align-items: center;
+    margin-top: 56px;
+}
+
+.price-tag {
+    color: #18333E;
+}
+
+.price-tag p {
+    font-size: 16px;
+}
+
+.price-tag h2 {
+    font-size: 40px;
+}
+
+
+.picture-min {
+    margin-top: 46px;
+}
+
+.picture {
+    border-radius: 30px;
+}
+
+.picture-min li {
+    display: flex;
+    margin-top: 50px;
+}
+
+.country {
+    margin-left: 6px;
+    margin-top: 30px;
+}
+
+.country h4 {
+    font-size: 22px;
+    color: #18333E;
+    font-weight: 600;
+}
+
+.country .marker {
+    display: flex;
+    align-items: center;
+    color: #18333E;
+    margin-top: 8px;
+    font-size: 16px;
+}
+
+.circle-favorite {
+    position: relative;
+    border-radius: 100%;
+    background: #E9F1FA;
+    width: 53px;
+    height: 53px;
+    margin-left: 62px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.favorite-short-picture {
+    position: absolute;
+    bottom: 16px;
+    left: 17px;
+}
+
+.circle-favorite {
+    margin-left: 72px;
+}
+
+.circle-favorite {
+    margin-left: 80px;
+}
